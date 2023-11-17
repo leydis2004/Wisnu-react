@@ -1,0 +1,65 @@
+.card{
+  
+ 
+    border-radius: 10px;
+ 
+    height: 540px;
+    background-color: #151515;
+    margin-right: 106px;
+    margin-left: 10px;
+   margin-top: 30px;
+  }
+  
+  .cubo{
+    border-radius: 10px;
+    width: 708px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .texto{
+    margin-left: 20px;
+  }
+  
+  .segundo{
+    color: #00fff8;
+  }
+  
+  .icon{
+    margin-right: 10px;
+  }
+  .parte{
+    display: flex;
+    border-bottom: 1px solid #151515;
+    margin: 0px 20px 0px 20px ;
+  }
+  
+  .tercera{
+    margin-left: 110px;
+    color: #151515;
+  }
+  
+  .avatar{
+    background: #ffffff;
+    border-radius: 100px;
+    width: 50px;
+  }
+  
+  .cuatro{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+  }
+  
+  .four{
+    align-items: center;
+    display: flex;
+    padding: 15px;
+  }
+  
+  .cinco{
+  /*   margin-top: 57px; */
+    margin-left: 10px;
+    color: white;
+  }
