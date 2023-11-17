@@ -14,7 +14,7 @@ function App(){
     <div style={{ display:"flex", marginLeft:"110px"  
    }}>
     <div>
-    <Card lenguaje="DESIGN PORTAFOLIO" color=" white" />
+    <Card lenguaje="DESIGN PORTAFOLIO12121" color=" white" />
     <p>html</p>
     </div>
     <div>
