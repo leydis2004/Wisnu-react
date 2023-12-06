@@ -1,45 +1,36 @@
-import './App.css'
-import Card from './Card.jsx';
+import { useState } from 'react';
+import Seccion from './Seccion.jsx';
+import Segundo from './Segundo.jsx';
+import Tercero from './Tercero.jsx';
+import Cuarta from './Cuarta.jsx';
+import Quinta from './Quinta.jsx';
+import Sexto from './Sexto.jsx';
+import Septimo from './Septimo.jsx';
 
-import Header from './Header.jsx'
+
+
+
+
+
 
 function App(){
   return (
     <>
-     <div className='proyecto'>
-       <h1 className='contacto'>Proyect</h1> 
-       <h3 className='me'>CONTAC ME</h3>
-       </div>
-       
-    <div style={{ display:"flex", marginLeft:"110px"  
-   }}>
-    <div>
-    <Card lenguaje="DESIGN PORTAFOLIO12121" color=" white" />
-    <p>html</p>
-    </div>
-    <div>
-    <Card lenguaje="E-LEARNING" color=" white"/>
-    <p>html</p>
-    </div>
-   
-    </div>
-    <div style={{ display:"flex", marginLeft:"110px"  
-   }}>
     
-    <Card lenguaje="TODO WED APP" color=" white"/>
-    <Card lenguaje="ENTERTAINMENT WEB APP" color=" white"/>
-   
-   
-    </div>
-    <div style={{ display:"flex", marginLeft:"110px"  
-   }}>
+    <Seccion/>
+    <Segundo/>
+    <Tercero texto={'Informacion'}/>
+    <Cuarta/>
+    <Quinta/>
+    <Sexto/>
+    <Septimo/>
+
     
-    <Card lenguaje="MEMORY GAME" color=" white"/>
-    <Card lenguaje="ART GALLERY SHOWCASE" color=" white"/>
-   
-   
-    </div>
     </>
+    
   )
+  
+  
 }
+
  export default App;
